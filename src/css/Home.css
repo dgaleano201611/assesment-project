@@ -1,0 +1,18 @@
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.container-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-title{
+  font-weight: 800;
+  font-size: 24px;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+}

@@ -1,0 +1,53 @@
+.main-container {
+  width: 300px;
+  height: 20rem;
+  padding: 20px;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 1.5rem;
+}
+.main-container__title { 
+  font-weight:600;
+  font-size: 16px;
+}
+.figure-container {
+  width: 15rem;
+  height: 20rem;
+}
+.figure-container__image {
+  width: auto;
+  height: 140px; 
+}
+.product-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CreateTodoButton {
+  background-color: #61DAFA;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 14px;
+  bottom: 18px;
+  right: 20px;
+  font-weight: bold;
+  color: #FAFAFA;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 64px;
+
+  transform: rotate(0);
+  transition: .3s ease;
+}
+
+.CreateTodoButton:hover {
+  transform: rotate(224deg);
+}
+

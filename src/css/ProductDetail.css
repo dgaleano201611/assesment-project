@@ -1,0 +1,26 @@
+.main-content-product-detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-content-product-detail__title {
+  font-weight: 800;
+  font-size: 24px;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  margin-top: 20px;
+}
+.main-container-detail {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 1.5rem;
+}
