@@ -2,10 +2,9 @@ import React from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
-import ProductCard from "../components/ProductCard";
 
 import "../css/Home.css";
-import ProductCardPrueba from "../components/ProductCardPrueba";
+import ProductCardPrueba from "../components/ProductCard";
 
 const Home = () => {
   const [products, setProducts] = useState([]);

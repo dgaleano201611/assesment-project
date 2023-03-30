@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Home } from '../pages/Home'
 import { About } from '../pages/About'
 import { ProductDetail } from '../pages/ProductDetail'
-import ProductCardPrueba from '../components/ProductCardPrueba'
+import ProductCardPrueba from '../components/ProductCard'
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
         <Route path='/prueba' element={<ProductCardPrueba/>}/>
       </Routes>
     </BrowserRouter>
-    
+
   )
 }
 
